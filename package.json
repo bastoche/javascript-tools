@@ -4,6 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint src",
     "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0"
   }
 }
