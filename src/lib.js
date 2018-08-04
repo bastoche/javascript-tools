@@ -1,3 +1,3 @@
 exports.success = function() {
-    return true;
+  return true;
 };
