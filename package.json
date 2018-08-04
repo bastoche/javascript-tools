@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint src --fix",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "validate": "yarn lint && yarn flow"
   },
   "devDependencies": {
     "eslint": "^5.3.0",
