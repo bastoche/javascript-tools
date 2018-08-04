@@ -1,3 +1,5 @@
+// @flow
+
 const lib = require("./lib");
 
 const success = lib.success();
